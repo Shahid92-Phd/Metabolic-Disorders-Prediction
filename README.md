@@ -1,6 +1,5 @@
 # Analysis: explainable stacking for four cardiometabolic disorders
 
-Code and outputs for the revised manuscript (bioengineering-4622383).
 
 ## Data (`data/`)
 | File | Source | Notes |
