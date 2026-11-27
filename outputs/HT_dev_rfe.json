@@ -1,0 +1,97 @@
+[
+ {
+  "fold": 0,
+  "kept": [
+   "male",
+   "age",
+   "currentSmoker",
+   "cigsPerDay",
+   "BPMeds",
+   "totChol",
+   "sysBP",
+   "diaBP",
+   "BMI",
+   "heartRate",
+   "glucose"
+  ],
+  "dropped": [
+   "diabetes"
+  ]
+ },
+ {
+  "fold": 1,
+  "kept": [
+   "male",
+   "age",
+   "currentSmoker",
+   "cigsPerDay",
+   "BPMeds",
+   "totChol",
+   "sysBP",
+   "diaBP",
+   "BMI",
+   "heartRate",
+   "glucose"
+  ],
+  "dropped": [
+   "diabetes"
+  ]
+ },
+ {
+  "fold": 2,
+  "kept": [
+   "age",
+   "cigsPerDay",
+   "BPMeds",
+   "totChol",
+   "sysBP",
+   "diaBP",
+   "BMI",
+   "heartRate",
+   "glucose"
+  ],
+  "dropped": [
+   "male",
+   "currentSmoker",
+   "diabetes"
+  ]
+ },
+ {
+  "fold": 3,
+  "kept": [
+   "male",
+   "age",
+   "cigsPerDay",
+   "BPMeds",
+   "totChol",
+   "sysBP",
+   "diaBP",
+   "BMI",
+   "heartRate",
+   "glucose"
+  ],
+  "dropped": [
+   "currentSmoker",
+   "diabetes"
+  ]
+ },
+ {
+  "fold": 4,
+  "kept": [
+   "age",
+   "cigsPerDay",
+   "BPMeds",
+   "totChol",
+   "sysBP",
+   "diaBP",
+   "BMI",
+   "heartRate",
+   "glucose"
+  ],
+  "dropped": [
+   "male",
+   "currentSmoker",
+   "diabetes"
+  ]
+ }
+]

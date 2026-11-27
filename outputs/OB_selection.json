@@ -1,0 +1,24 @@
+{
+ "order": [
+  "RF",
+  "GB",
+  "ET",
+  "SVM",
+  "LR",
+  "DT",
+  "LDA",
+  "QDA",
+  "KNN",
+  "NB",
+  "Ridge",
+  "ADB"
+ ],
+ "top6": [
+  "RF",
+  "GB",
+  "ET",
+  "SVM",
+  "LR",
+  "DT"
+ ]
+}

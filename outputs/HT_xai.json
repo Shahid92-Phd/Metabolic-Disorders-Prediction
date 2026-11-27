@@ -1,0 +1,344 @@
+{
+ "shap_mean_abs": {
+  "sysBP": 0.2395749931418879,
+  "diaBP": 0.09311991684534221,
+  "BPMeds": 0.02575673223078208,
+  "age": 0.014474440803485929,
+  "BMI": 0.010028700371584114,
+  "male": 0.008714256116191714,
+  "heartRate": 0.004505041513438129,
+  "glucose": 0.003967653150198207,
+  "totChol": 0.002345341093599268,
+  "currentSmoker": 0.001844194662935907,
+  "cigsPerDay": 0.0013076928200066859,
+  "diabetes": 0.00018375161200335835
+ },
+ "shap_settings": {
+  "explainer": "shap.PermutationExplainer",
+  "shap_version": "0.54.1",
+  "background": "50 random development-set records",
+  "explained": "150 stratified random test-set records",
+  "max_evals": 145,
+  "output": "P(class 1)",
+  "model": "complete fitted stacking pipeline (raw predictors in)"
+ },
+ "shap_direction": {
+  "male": 0.854887408635558,
+  "age": 0.8521706766546626,
+  "currentSmoker": -0.7054608509633231,
+  "cigsPerDay": -0.15920777168932848,
+  "BPMeds": 0.24572345039616256,
+  "diabetes": -0.7140194629618482,
+  "totChol": 0.6036463879348313,
+  "sysBP": 0.9070636231352823,
+  "diaBP": 0.7906229275763283,
+  "BMI": 0.9000227569198661,
+  "heartRate": 0.6980222227260302,
+  "glucose": 0.7550359823681978
+ },
+ "stability": {
+  "kendall_W": 0.9714685314685315,
+  "mean_pairwise_spearman": 0.9643356643356643,
+  "min_pairwise_spearman": 0.9230769230769231,
+  "top5_frequency_out_of_5": {
+   "male": 3,
+   "age": 5,
+   "currentSmoker": 0,
+   "cigsPerDay": 0,
+   "BPMeds": 5,
+   "diabetes": 0,
+   "totChol": 0,
+   "sysBP": 5,
+   "diaBP": 5,
+   "BMI": 2,
+   "heartRate": 0,
+   "glucose": 0
+  },
+  "fold_importance": {
+   "0": {
+    "male": 0.007518309808839897,
+    "age": 0.01192648129101574,
+    "currentSmoker": 0.0031386597202528728,
+    "cigsPerDay": 0.0013944041285621723,
+    "BPMeds": 0.029869685934852196,
+    "diabetes": 0.0002369805361486174,
+    "totChol": 0.0012793411629936238,
+    "sysBP": 0.2596984818605685,
+    "diaBP": 0.07780543651387033,
+    "BMI": 0.00632484550504717,
+    "heartRate": 0.004839135621783763,
+    "glucose": 0.00475990849033595
+   },
+   "1": {
+    "male": 0.010819768209121262,
+    "age": 0.011579528806318436,
+    "currentSmoker": 0.0013906894658331592,
+    "cigsPerDay": 0.001687213885297896,
+    "BPMeds": 0.02836350338544153,
+    "diabetes": 0.00011938540487131444,
+    "totChol": 0.001768495318420664,
+    "sysBP": 0.260282148103565,
+    "diaBP": 0.07975094893167167,
+    "BMI": 0.010203513658271718,
+    "heartRate": 0.004041406882330506,
+    "glucose": 0.005764139987753132
+   },
+   "2": {
+    "male": 0.008719842997024614,
+    "age": 0.012564286739126162,
+    "currentSmoker": 0.005177780503336787,
+    "cigsPerDay": 0.0017404041342628034,
+    "BPMeds": 0.030299813310866744,
+    "diabetes": 0.00016273092965762446,
+    "totChol": 0.005735365658561778,
+    "sysBP": 0.2501397602923354,
+    "diaBP": 0.07540426037247858,
+    "BMI": 0.010517164221100632,
+    "heartRate": 0.0037901805587170784,
+    "glucose": 0.006924694714516727
+   },
+   "3": {
+    "male": 0.008565389352296383,
+    "age": 0.016715809077043682,
+    "currentSmoker": 0.0026404221261520306,
+    "cigsPerDay": 0.0015707919423026198,
+    "BPMeds": 0.02955168282646787,
+    "diabetes": 5.867254600494735e-05,
+    "totChol": 0.002731708463803093,
+    "sysBP": 0.24578049935026422,
+    "diaBP": 0.08487627385932614,
+    "BMI": 0.007962962602316603,
+    "heartRate": 0.005968042685206894,
+    "glucose": 0.005770124056873902
+   },
+   "4": {
+    "male": 0.0056399414006613946,
+    "age": 0.010949912337202106,
+    "currentSmoker": 0.0024782253080293626,
+    "cigsPerDay": 0.0012948792197502704,
+    "BPMeds": 0.028481343603292332,
+    "diabetes": 2.690071535811406e-05,
+    "totChol": 0.0036857120090230083,
+    "sysBP": 0.26823420486244204,
+    "diaBP": 0.06826464970277689,
+    "BMI": 0.009167213132505401,
+    "heartRate": 0.0031748205690408614,
+    "glucose": 0.003701063282530877
+   }
+  }
+ },
+ "correlated_pairs": [
+  {
+   "a": "currentSmoker",
+   "b": "cigsPerDay",
+   "rho": 0.9353923715715446
+  },
+  {
+   "a": "sysBP",
+   "b": "diaBP",
+   "rho": 0.7762635230012732
+  }
+ ],
+ "grouped_permutation": [
+  {
+   "features": "sysBP + diaBP",
+   "auc_drop_mean": 0.37272231283287394,
+   "auc_drop_sd": 0.014191442134537975
+  },
+  {
+   "features": "BPMeds",
+   "auc_drop_mean": 0.010290836135848691,
+   "auc_drop_sd": 0.001575515203950908
+  },
+  {
+   "features": "BMI",
+   "auc_drop_mean": 0.0019534373511540526,
+   "auc_drop_sd": 0.0009106525338292051
+  },
+  {
+   "features": "age",
+   "auc_drop_mean": 0.0011396735129830526,
+   "auc_drop_sd": 0.0009318656124048003
+  },
+  {
+   "features": "male",
+   "auc_drop_mean": 0.0010169882943869002,
+   "auc_drop_sd": 0.0004854140950167827
+  },
+  {
+   "features": "glucose",
+   "auc_drop_mean": 0.00020870920716489216,
+   "auc_drop_sd": 0.0003263815169020072
+  },
+  {
+   "features": "diabetes",
+   "auc_drop_mean": -1.5010897334033491e-05,
+   "auc_drop_sd": 7.399596339695259e-05
+  },
+  {
+   "features": "heartRate",
+   "auc_drop_mean": -0.00015270701326440815,
+   "auc_drop_sd": 0.0004409281397900334
+  },
+  {
+   "features": "totChol",
+   "auc_drop_mean": -0.0006191995150324648,
+   "auc_drop_sd": 0.00019309222303057265
+  },
+  {
+   "features": "currentSmoker + cigsPerDay",
+   "auc_drop_mean": -0.0015149459463359328,
+   "auc_drop_sd": 0.0004005283085620459
+  }
+ ],
+ "meta": {
+  "base_learners": [
+   "GB",
+   "RF",
+   "DT",
+   "ADB",
+   "ET",
+   "LR"
+  ],
+  "outputs_per_learner": 1,
+  "coef": [
+   [
+    -0.09267915058246269,
+    1.4149070729491813,
+    1.53836350742324,
+    0.43194714089217273,
+    2.408344755056109,
+    1.1490875598552213
+   ]
+  ],
+  "mean_abs_contribution": {
+   "GB": 0.033110620559808984,
+   "RF": 0.4826653279275065,
+   "DT": 0.5745601483745333,
+   "ADB": 0.07902146199991525,
+   "ET": 0.8138033462892363,
+   "LR": 0.40396862899021885
+  },
+  "base_output_corr": {
+   "GB": {
+    "GB": 1.0,
+    "RF": 0.989,
+    "DT": 0.973,
+    "ADB": 0.971,
+    "ET": 0.987,
+    "LR": 0.977
+   },
+   "RF": {
+    "GB": 0.989,
+    "RF": 1.0,
+    "DT": 0.963,
+    "ADB": 0.966,
+    "ET": 0.991,
+    "LR": 0.97
+   },
+   "DT": {
+    "GB": 0.973,
+    "RF": 0.963,
+    "DT": 1.0,
+    "ADB": 0.929,
+    "ET": 0.953,
+    "LR": 0.923
+   },
+   "ADB": {
+    "GB": 0.971,
+    "RF": 0.966,
+    "DT": 0.929,
+    "ADB": 1.0,
+    "ET": 0.971,
+    "LR": 0.975
+   },
+   "ET": {
+    "GB": 0.987,
+    "RF": 0.991,
+    "DT": 0.953,
+    "ADB": 0.971,
+    "ET": 1.0,
+    "LR": 0.98
+   },
+   "LR": {
+    "GB": 0.977,
+    "RF": 0.97,
+    "DT": 0.923,
+    "ADB": 0.975,
+    "ET": 0.98,
+    "LR": 1.0
+   }
+  }
+ },
+ "lime": {
+  "test_position": 73,
+  "dataset_row": 61,
+  "class_explained": "Hypertension",
+  "predicted_probability": 0.8926664913280812,
+  "true_class": "Hypertension",
+  "weights": [
+   [
+    "sysBP > 143.50",
+    0.5877801802430304
+   ],
+   [
+    "BPMeds=no",
+    -0.5033986597393877
+   ],
+   [
+    "82.00 < diaBP <= 89.50",
+    -0.0645919889281641
+   ],
+   [
+    "age > 56.00",
+    0.03371198526315106
+   ],
+   [
+    "male=female",
+    -0.018042311870042422
+   ],
+   [
+    "heartRate <= 68.00",
+    -0.008539822805757002
+   ],
+   [
+    "72.00 < glucose <= 78.00",
+    0.007897810637498314
+   ],
+   [
+    "cigsPerDay <= 0.00",
+    0.00514727415469744
+   ],
+   [
+    "diabetes=no",
+    -0.0049199815990295034
+   ],
+   [
+    "currentSmoker=no",
+    0.004223119891973589
+   ]
+  ],
+  "local_r2": 0.6355637671594714,
+  "instance": {
+   "male": 0.0,
+   "age": 67.0,
+   "currentSmoker": 0.0,
+   "cigsPerDay": 0.0,
+   "BPMeds": 0.0,
+   "diabetes": 0.0,
+   "totChol": 254.0,
+   "sysBP": 157.0,
+   "diaBP": 89.0,
+   "BMI": 24.25,
+   "heartRate": 60.0,
+   "glucose": 74.0
+  },
+  "settings": {
+   "num_samples": 5000,
+   "num_features": 10,
+   "discretize_continuous": true,
+   "training_data": "development set, median-imputed",
+   "random_state": 42
+  }
+ }
+}

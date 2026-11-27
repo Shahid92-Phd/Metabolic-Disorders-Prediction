@@ -1,0 +1,241 @@
+{
+ "NB": [
+  {
+   "var_smoothing": 0.001
+  },
+  {
+   "var_smoothing": 0.001
+  },
+  {
+   "var_smoothing": 0.001
+  },
+  {
+   "var_smoothing": 0.001
+  },
+  {
+   "var_smoothing": 0.001
+  }
+ ],
+ "SVM": [
+  {
+   "C": 10,
+   "gamma": 0.05
+  },
+  {
+   "C": 10,
+   "gamma": 0.05
+  },
+  {
+   "C": 10,
+   "gamma": 0.05
+  },
+  {
+   "C": 10,
+   "gamma": 0.05
+  },
+  {
+   "C": 10,
+   "gamma": 0.05
+  }
+ ],
+ "QDA": [
+  {
+   "reg_param": 0.1
+  },
+  {
+   "reg_param": 0.1
+  },
+  {
+   "reg_param": 0.1
+  },
+  {
+   "reg_param": 0.1
+  },
+  {
+   "reg_param": 0.1
+  }
+ ],
+ "Ridge": [
+  {
+   "alpha": 1.0
+  },
+  {
+   "alpha": 1.0
+  },
+  {
+   "alpha": 1.0
+  },
+  {
+   "alpha": 10.0
+  },
+  {
+   "alpha": 10.0
+  }
+ ],
+ "KNN": [
+  {
+   "n_neighbors": 5,
+   "weights": "distance"
+  },
+  {
+   "n_neighbors": 5,
+   "weights": "distance"
+  },
+  {
+   "n_neighbors": 5,
+   "weights": "distance"
+  },
+  {
+   "n_neighbors": 5,
+   "weights": "distance"
+  },
+  {
+   "n_neighbors": 5,
+   "weights": "distance"
+  }
+ ],
+ "LDA": [
+  {
+   "shrinkage": null
+  },
+  {
+   "shrinkage": null
+  },
+  {
+   "shrinkage": null
+  },
+  {
+   "shrinkage": null
+  },
+  {
+   "shrinkage": null
+  }
+ ],
+ "LR": [
+  {
+   "C": 10.0
+  },
+  {
+   "C": 10.0
+  },
+  {
+   "C": 10.0
+  },
+  {
+   "C": 10.0
+  },
+  {
+   "C": 10.0
+  }
+ ],
+ "DT": [
+  {
+   "max_depth": null,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_depth": null,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_depth": null,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_depth": null,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_depth": null,
+   "min_samples_leaf": 1
+  }
+ ],
+ "GB": [
+  {
+   "learning_rate": 0.05,
+   "max_depth": 3
+  },
+  {
+   "learning_rate": 0.1,
+   "max_depth": 3
+  },
+  {
+   "learning_rate": 0.1,
+   "max_depth": 3
+  },
+  {
+   "learning_rate": 0.1,
+   "max_depth": 3
+  },
+  {
+   "learning_rate": 0.1,
+   "max_depth": 3
+  }
+ ],
+ "ADB": [
+  {
+   "learning_rate": 0.5,
+   "n_estimators": 100
+  },
+  {
+   "learning_rate": 0.5,
+   "n_estimators": 300
+  },
+  {
+   "learning_rate": 0.5,
+   "n_estimators": 100
+  },
+  {
+   "learning_rate": 1.0,
+   "n_estimators": 100
+  },
+  {
+   "learning_rate": 0.1,
+   "n_estimators": 100
+  }
+ ],
+ "RF": [
+  {
+   "max_features": 0.5,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_features": 0.5,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_features": 0.5,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_features": 0.5,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_features": 0.5,
+   "min_samples_leaf": 1
+  }
+ ],
+ "ET": [
+  {
+   "max_features": 0.5,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_features": 0.5,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_features": 0.5,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_features": 0.5,
+   "min_samples_leaf": 1
+  },
+  {
+   "max_features": 0.5,
+   "min_samples_leaf": 1
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+[
+ {
+  "fold": 0,
+  "kept": [
+   "AG",
+   "HT",
+   "WT",
+   "FH",
+   "FF",
+   "FV",
+   "NM",
+   "CM",
+   "CW",
+   "FA",
+   "TD",
+   "CA",
+   "TU"
+  ],
+  "dropped": []
+ },
+ {
+  "fold": 1,
+  "kept": [
+   "AG",
+   "HT",
+   "WT",
+   "FH",
+   "FV",
+   "NM",
+   "CM",
+   "CW",
+   "FA",
+   "TD",
+   "CA",
+   "TU"
+  ],
+  "dropped": [
+   "FF"
+  ]
+ },
+ {
+  "fold": 2,
+  "kept": [
+   "AG",
+   "HT",
+   "WT",
+   "FV"
+  ],
+  "dropped": [
+   "FH",
+   "FF",
+   "NM",
+   "CM",
+   "CW",
+   "FA",
+   "TD",
+   "CA",
+   "TU"
+  ]
+ },
+ {
+  "fold": 3,
+  "kept": [
+   "AG",
+   "HT",
+   "WT",
+   "FV"
+  ],
+  "dropped": [
+   "FH",
+   "FF",
+   "NM",
+   "CM",
+   "CW",
+   "FA",
+   "TD",
+   "CA",
+   "TU"
+  ]
+ },
+ {
+  "fold": 4,
+  "kept": [
+   "AG",
+   "HT",
+   "WT",
+   "FV",
+   "NM",
+   "CM",
+   "CW",
+   "FA",
+   "TD"
+  ],
+  "dropped": [
+   "FH",
+   "FF",
+   "CA",
+   "TU"
+  ]
+ }
+]

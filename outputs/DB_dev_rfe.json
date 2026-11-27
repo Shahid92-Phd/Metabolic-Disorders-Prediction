@@ -1,0 +1,73 @@
+[
+ {
+  "fold": 0,
+  "kept": [
+   "PR",
+   "GL",
+   "IN",
+   "BMI",
+   "DPF",
+   "AG"
+  ],
+  "dropped": [
+   "BP",
+   "ST"
+  ]
+ },
+ {
+  "fold": 1,
+  "kept": [
+   "PR",
+   "GL",
+   "BP",
+   "ST",
+   "IN",
+   "BMI",
+   "DPF",
+   "AG"
+  ],
+  "dropped": []
+ },
+ {
+  "fold": 2,
+  "kept": [
+   "PR",
+   "GL",
+   "BP",
+   "ST",
+   "IN",
+   "BMI",
+   "DPF",
+   "AG"
+  ],
+  "dropped": []
+ },
+ {
+  "fold": 3,
+  "kept": [
+   "PR",
+   "GL",
+   "BP",
+   "ST",
+   "IN",
+   "BMI",
+   "DPF",
+   "AG"
+  ],
+  "dropped": []
+ },
+ {
+  "fold": 4,
+  "kept": [
+   "PR",
+   "GL",
+   "BP",
+   "ST",
+   "IN",
+   "BMI",
+   "DPF",
+   "AG"
+  ],
+  "dropped": []
+ }
+]
